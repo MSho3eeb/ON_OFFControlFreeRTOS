@@ -1,0 +1,195 @@
+Dependencies for Project 'Task8', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x629797B7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/main.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (tm4c123gh6pm.h)(0x61819C44)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182D82C)
+I (ADC.h)(0x6296A1C4)
+I (DIO.h)(0x61D0E07E)
+I (Bit_Math.h)(0x618390E0)
+I (types.h)(0x61AF0B3C)
+I (DIO_Types.h)(0x629688FD)
+I (LCD.h)(0x629789A8)
+I (UART.h)(0x62977BB2)
+F (.\tm4c123gh6pm.h)(0x61819C44)()
+F (.\Bit_Math.h)(0x618390E0)()
+F (.\DIO.c)(0x6296A9E9)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/dio.o -MD)
+I (DIO.h)(0x61D0E07E)
+I (tm4c123gh6pm.h)(0x61819C44)
+I (Bit_Math.h)(0x618390E0)
+I (types.h)(0x61AF0B3C)
+I (DIO_Types.h)(0x629688FD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+F (.\DIO.h)(0x61D0E07E)()
+F (.\DIO_Types.h)(0x629688FD)()
+F (.\types.h)(0x61AF0B3C)()
+F (.\ADC.c)(0x6296A7A2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/adc.o -MD)
+I (DIO.h)(0x61D0E07E)
+I (tm4c123gh6pm.h)(0x61819C44)
+I (Bit_Math.h)(0x618390E0)
+I (types.h)(0x61AF0B3C)
+I (DIO_Types.h)(0x629688FD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (ADC.h)(0x6296A1C4)
+F (.\ADC.h)(0x6296A1C4)()
+F (.\LCD.c)(0x62979044)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/lcd.o -MD)
+I (DIO.h)(0x61D0E07E)
+I (tm4c123gh6pm.h)(0x61819C44)
+I (Bit_Math.h)(0x618390E0)
+I (types.h)(0x61AF0B3C)
+I (DIO_Types.h)(0x629688FD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (LCD.h)(0x629789A8)
+F (.\LCD.h)(0x629789A8)()
+F (.\UART.c)(0x62977BB2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/uart.o -MD)
+I (tm4c123gh6pm.h)(0x61819C44)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (Bit_Math.h)(0x618390E0)
+F (.\UART.h)(0x62977BB2)()
+F (RTE\Device\TM4C123GH6PM\startup_TM4C123.s)(0x51B6E406)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"TM4C123GH6PM SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_tm4c123.o)
+F (RTE\Device\TM4C123GH6PM\system_TM4C123.c)(0x625E07E0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/system_tm4c123.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (E:\KeilSetup\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123.h)(0x530EF2F6)
+I (E:\KeilSetup\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\TM4C123GH6PM.h)(0x550FE22C)
+I (E:\KeilSetup\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D43D42)
+I (E:\KeilSetup\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D43D42)
+I (E:\KeilSetup\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D43D42)
+I (E:\KeilSetup\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armclang.h)(0x60D43D42)
+I (E:\KeilSetup\ARM\CMSIS\5.8.0\CMSIS\Core\Include\mpu_armv7.h)(0x60D43D42)
+I (E:\KeilSetup\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123\system_TM4C123.h)(0x51B6E406)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x6152F422)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/freertos_evr.o -MD)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\event_groups.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\stream_buffer.h)(0x6182D82C)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\list.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/list.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\port.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/port.o -MD)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\MemMang\heap_1.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/heap_1.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\queue.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/queue.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\tasks.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/tasks.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\stack_macros.h)(0x6182D82C)
+F (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\timers.c)(0x6182D82C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -ffunction-sections -w-I./RTE/RTOS-I./RTE/_Target_1-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IE:/KeilSetup/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IE:/KeilSetup/ARM/CMSIS/5.8.0/CMSIS/Core/Include-IE:/KeilSetup/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123-D__UVISION_VERSION="536" -D_RTE_ -DTM4C123GH6PM -D_RTE_-o ./objects/timers.o -MD)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (E:\KeilSetup\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6152F422)
+I (E:\KeilSetup\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (RTE\_Target_1\RTE_Components.h)(0x6280957F)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182D82C)
+I (E:\KeilSetup\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182D82C)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x625E579C)()
